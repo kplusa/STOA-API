@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pmroz\\Development\\STOA\\STOA-API\\STOA-API.csproj": {}
+    "D:\\studies\\Projects\\c#\\STOA-API\\STOA-API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pmroz\\Development\\STOA\\STOA-API\\STOA-API.csproj": {
+    "D:\\studies\\Projects\\c#\\STOA-API\\STOA-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pmroz\\Development\\STOA\\STOA-API\\STOA-API.csproj",
+        "projectUniqueName": "D:\\studies\\Projects\\c#\\STOA-API\\STOA-API.csproj",
         "projectName": "STOA-API",
-        "projectPath": "C:\\Users\\pmroz\\Development\\STOA\\STOA-API\\STOA-API.csproj",
-        "packagesPath": "C:\\Users\\pmroz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pmroz\\Development\\STOA\\STOA-API\\obj\\",
+        "projectPath": "D:\\studies\\Projects\\c#\\STOA-API\\STOA-API.csproj",
+        "packagesPath": "C:\\Users\\kacpe\\.nuget\\packages\\",
+        "outputPath": "D:\\studies\\Projects\\c#\\STOA-API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\pmroz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kacpe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +37,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

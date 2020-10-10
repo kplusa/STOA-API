@@ -18,14 +18,18 @@ namespace STOA_API
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+          ConnectionString = Configuration["ConnectionStrings:Alfred:ConnectionString"];
+            
         }
 
         public IConfiguration Configuration { get; }
+        public static string ConnectionString;
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+          
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
